@@ -1,10 +1,9 @@
-import './App.css'
 import { puppyList } from './data';
 import React, { useState } from 'react';
 
 
-function Listpups() {
-  const [count, setCount] = useState(0);
+const Listpups = () => {
+  
 
 
   console.log(puppyList)
