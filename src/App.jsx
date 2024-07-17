@@ -1,18 +1,22 @@
 import './App.css'
-import { puppyList } from './data'
+import { puppyList } from './data';
 import React, { useState } from 'react';
 
-function Counter() {
+
+function Listpups() {
   const [count, setCount] = useState(0);
-console.log(puppyList)
+
+
+  console.log(puppyList)
   return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
+    <>
+      <div>
+        <h1>puppy List</h1>
+        
+      </div>
+    </>
   );
 }
 
-export default Counter;
+
+export default Listpups;
