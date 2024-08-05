@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: #f9f9f9;
+}
+
+.selected-puppy {
+  margin-top: 20px;
+}
+
+.selected-puppy h1 {
+  color: #555;
+}
+
+.selected-puppy p {
+  margin: 5px 0;
+}
+
+.selected-puppy ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.selected-puppy ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
